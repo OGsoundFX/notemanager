@@ -3,7 +3,7 @@ import { Template } from 'meteor/templating';
 import './main.html';
 
 Template.body.helpers({
-  lexicon:[
+  entries:[
     {
       "title": "testing",
       "topics": [],

@@ -8,7 +8,11 @@
   <h3 class="title">Welcome to your Lexicon!</h3>
 
   <div class="container list">
-    {{> list}}
+    <ul class="collection">
+      {{#each entries}}
+        {{> list}}
+      {{/each}}
+    </ul>
   </div>
 
   <div class="container info">
@@ -19,7 +23,11 @@
 </body>
 
 <template name="list">
-  <p>here will be a list</p>
+  <li class="collection-item"> <a href="/item"> {{title}} </a></li>
+</template>
+
+<template name="list-content">
+  <li class="collection-item">{{content}}</li>
 </template>
 
 <template name="info">

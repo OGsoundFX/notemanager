@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(230, 230, 230);
   padding: 10px;
   font-family: sans-serif;
 }
@@ -7,7 +7,6 @@ body {
 .title {
   margin-top: 10px;
   margin-bottom: 40px;
-  margin-left: 80px;
   text-align: center;
 }
 
