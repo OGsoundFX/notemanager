@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  text-align: center;
+}
+
+.list {
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 2px;
+}
+
+.info {
+  position: fixed;
+  bottom: 0;
+}
