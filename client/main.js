@@ -6,7 +6,8 @@ import './main.html';
 
 Template.body.helpers({
   entries(){
-    return [Entries.find({})];
+    // console.log(Entries.find());
+    return Entries.find({});
   },
 
   // entries:[
